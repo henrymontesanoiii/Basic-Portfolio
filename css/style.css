@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: “”;
+	display: block;
+  clear: both;
+}
+
+body {
+  width: 960px;
+background-color: white;
+}
+
+#header1 {
+  width: 80%
+}
+
+.name {
+  background-color: green;
+  font-size: x-large;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  padding:20px;
+  border: 1px solid black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+  margin-right: 100px;
+  margin-left: 200px;
+  
+}
+
+#links1 {
+  color: grey;
+  padding: 20px;
+  float: right;
+}
+
+#About me {
+  background-color: aqua;
+  margin: auto;
+  margin-top: 300px;
+  }
